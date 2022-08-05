@@ -1,0 +1,16 @@
+button {
+    font-family: 'Bungee', 'Impact', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background-color: #F4489A;
+    color: white;
+    font-size: 20px;
+}
+
+button:hover {
+    font-size: 25px;
+    background-color: #F4489A;
+}
