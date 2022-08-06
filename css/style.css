@@ -1,3 +1,31 @@
+
+
+.hero1 {
+    background-image: url(/images/Guac.png);
+    background-size: 100%;
+    height: 600px;
+}
+
+.hero2 {
+    background-image: url(/images/Eggs.png);
+    background-size: 100%;
+    height: 600px;
+}
+
+.hero3 {
+    background-image: url(/images/Pizza.png);
+    background-size: 100%;
+    height: 600px;
+}
+
+.hero4 {
+    background-image: url(/images/MamaBG.png);
+    background-size: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+
 button {
     font-family: 'Bungee', 'Impact', sans-serif;
     padding-left: 20px;
@@ -14,6 +42,8 @@ button:hover {
     font-size: 25px;
     background-color: #F4489A;
 }
+
+
 
 .form-control-dark {
     border-color: var(--bs-gray);
