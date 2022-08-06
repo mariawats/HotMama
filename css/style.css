@@ -12,10 +12,18 @@
     height: 600px;
 }
 
+.hero2 h1 {
+    color: #F4489A;
+}
+
 .hero3 {
     background-image: url(/images/Pizza.png);
     background-size: 100%;
     height: 600px;
+}
+
+.hero3 h1 {
+    color: #009CC9
 }
 
 .hero4 {
@@ -23,6 +31,10 @@
     background-size: 100%;
     height: 600px;
     background-repeat: no-repeat;
+}
+
+.hero4 h1 {
+    color: #F4489A;
 }
 
 
