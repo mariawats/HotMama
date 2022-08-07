@@ -2,14 +2,34 @@
 
 .hero1 {
     background-image: url(/images/Guac.png);
-    background-size: 100%;
-    height: 600px;
+    background-size: cover;
+    height: 700px;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100vw;
+}
+
+.hero1 img {
+    height: auto;
+}
+
+.hero1 h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero1 h2 {
+    padding: 0px;
+    margin: 0px;
 }
 
 .hero2 {
     background-image: url(/images/Eggs.png);
-    background-size: 100%;
-    height: 600px;
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+
 }
 
 .hero2 h1 {
@@ -18,8 +38,10 @@
 
 .hero3 {
     background-image: url(/images/Pizza.png);
-    background-size: 100%;
-    height: 600px;
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+
 }
 
 .hero3 h1 {
@@ -28,13 +50,18 @@
 
 .hero4 {
     background-image: url(/images/MamaBG.png);
-    background-size: 100%;
-    height: 600px;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
     background-repeat: no-repeat;
 }
 
 .hero4 h1 {
     color: #F4489A;
+}
+
+.nav-pills {
+    border-radius: 50px;
 }
 
 
@@ -71,6 +98,10 @@ button:hover {
   
   .dropdown-toggle {
     outline: 0;
+  }
+
+  footer {
+    color:white;
   }
   
   @media (min-width: 992px) {
